@@ -16,7 +16,7 @@ import sys
 import threading
 import traceback
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 _libc = ctypes.CDLL(None)
 _libc.free.argtypes = [ctypes.c_void_p]

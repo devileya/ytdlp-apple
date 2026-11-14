@@ -22,7 +22,7 @@ class JavaScriptCoreJCP(EJSBaseJCP):
     PROVIDER_NAME = "javascriptcore"
     PROVIDER_VERSION = __version__
     JS_RUNTIME_NAME = "javascriptcore"
-    BUG_REPORT_LOCATION = "https://github.com/devileya/ytdlp-apple/issues"
+    BUG_REPORT_LOCATION = "https://github.com/Catlyn-Lab/ytdlp-apple/issues"
 
     def is_available(self, /) -> bool:
         from . import _js_eval

@@ -12,7 +12,7 @@ let python: Target = localPython
     ? .binaryTarget(name: "Python", path: "Frameworks/Python.xcframework")
     : .binaryTarget(
         name: "Python",
-        url: "https://github.com/devileya/ytdlp-apple/releases/download/\(pythonVersion)/Python.xcframework.zip",
+        url: "https://github.com/Catlyn-Lab/ytdlp-apple/releases/download/\(pythonVersion)/Python.xcframework.zip",
         checksum: "d704854ae1b7ce0434df451b02643347e54b736fea53f768ec3879adbb7c7fa7")
 
 let package = Package(

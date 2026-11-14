@@ -21,7 +21,7 @@ runs inside your app on an embedded Python, with no subprocess and nothing for t
 
 ```swift
 // Package.swift
-.package(url: "https://github.com/devileya/ytdlp-apple.git", from: "0.1.0"),
+.package(url: "https://github.com/Catlyn-Lab/ytdlp-apple.git", from: "0.1.1"),
 // target dependency
 .product(name: "YTDLP", package: "ytdlp-apple"),
 ```
